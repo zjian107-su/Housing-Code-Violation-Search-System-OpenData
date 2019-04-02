@@ -1,0 +1,1814 @@
+
+{
+    "objectIdFieldName": "ObjectId",
+    "uniqueIdField": {
+       "name": "ObjectId",
+       "isSystemMaintained": true
+    },
+    "globalIdFieldName": "",
+    "geometryType": "esriGeometryPoint",
+    "spatialReference": {
+       "wkid": 4326,
+       "latestWkid": 4326
+    },
+    "fields": [
+       {
+          "name": "property_address",
+          "type": "esriFieldTypeString",
+          "alias": "property_address",
+          "sqlType": "sqlTypeNVarchar",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "property_zip",
+          "type": "esriFieldTypeString",
+          "alias": "property_zip",
+          "sqlType": "sqlTypeNVarchar",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "property_id",
+          "type": "esriFieldTypeString",
+          "alias": "property_id",
+          "sqlType": "sqlTypeNVarchar",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "violation_name",
+          "type": "esriFieldTypeString",
+          "alias": "violation_name",
+          "sqlType": "sqlTypeNVarchar",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "violation_date",
+          "type": "esriFieldTypeDate",
+          "alias": "violation_date",
+          "sqlType": "sqlTypeTimestamp2",
+          "length": 8,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "comply_by_date",
+          "type": "esriFieldTypeDate",
+          "alias": "comply_by_date",
+          "sqlType": "sqlTypeTimestamp2",
+          "length": 8,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "violation_status",
+          "type": "esriFieldTypeString",
+          "alias": "violation_status",
+          "sqlType": "sqlTypeNVarchar",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "case_number",
+          "type": "esriFieldTypeString",
+          "alias": "case_number",
+          "sqlType": "sqlTypeNVarchar",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "case_type",
+          "type": "esriFieldTypeString",
+          "alias": "case_type",
+          "sqlType": "sqlTypeNVarchar",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "case_open_date",
+          "type": "esriFieldTypeDate",
+          "alias": "case_open_date",
+          "sqlType": "sqlTypeTimestamp2",
+          "length": 8,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "property_owner_name",
+          "type": "esriFieldTypeString",
+          "alias": "property_owner_name",
+          "sqlType": "sqlTypeNVarchar",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "inspector_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "inspector_id",
+          "sqlType": "sqlTypeInteger",
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "property_neighborhood",
+          "type": "esriFieldTypeString",
+          "alias": "property_neighborhood",
+          "sqlType": "sqlTypeNVarchar",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "vacant_property",
+          "type": "esriFieldTypeString",
+          "alias": "vacant_property",
+          "sqlType": "sqlTypeNVarchar",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "owner_address",
+          "type": "esriFieldTypeString",
+          "alias": "owner_address",
+          "sqlType": "sqlTypeNVarchar",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "owner_city",
+          "type": "esriFieldTypeString",
+          "alias": "owner_city",
+          "sqlType": "sqlTypeNVarchar",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "owner_state",
+          "type": "esriFieldTypeString",
+          "alias": "owner_state",
+          "sqlType": "sqlTypeNVarchar",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "owner_zip",
+          "type": "esriFieldTypeString",
+          "alias": "owner_zip",
+          "sqlType": "sqlTypeNVarchar",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "long",
+          "type": "esriFieldTypeDouble",
+          "alias": "long",
+          "sqlType": "sqlTypeFloat",
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "lat",
+          "type": "esriFieldTypeDouble",
+          "alias": "lat",
+          "sqlType": "sqlTypeFloat",
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "TNT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "TNT_NAME",
+          "sqlType": "sqlTypeNVarchar",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null
+       },
+       {
+          "name": "ObjectId",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectId",
+          "sqlType": "sqlTypeInteger",
+          "domain": null,
+          "defaultValue": null
+       }
+    ],
+    "features": [
+       {
+          "attributes": {
+             "property_address": "216 Maplehurst Ave",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-11-23.0",
+             "violation_name": "SPCC - Section 27-32 (d) Protective coating for wood surfaces",
+             "violation_date": 1537315200000,
+             "comply_by_date": 1538352000000,
+             "violation_status": "Open",
+             "case_number": "V2018-0318",
+             "case_type": "Vacant House",
+             "case_open_date": 1537315200000,
+             "property_owner_name": "Marguerite Gurba",
+             "inspector_id": 254,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "Y",
+             "owner_address": "PO BOX 8",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13206-0008\"",
+             "long": -76.1396246067514,
+             "lat": 43.0801954643215,
+             "TNT_NAME": "Northside",
+             "ObjectId": 1
+          },
+          "geometry": {
+             "x": -76.13962460675138,
+             "y": 43.080195464321505
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "254 Maplehurst Ave",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-11-32.0",
+             "violation_name": "SPCC - Section 27-72 (f) - Overgrowth",
+             "violation_date": 1498780800000,
+             "comply_by_date": 1499299200000,
+             "violation_status": "Closed",
+             "case_number": "2017-18751",
+             "case_type": "Overgrowth: Private, Occ",
+             "case_open_date": 1498780800000,
+             "property_owner_name": "Abel Fajardo Soriano",
+             "inspector_id": 497,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "524 Court St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1406215158688,
+             "lat": 43.0808607898845,
+             "TNT_NAME": "Northside",
+             "ObjectId": 2
+          },
+          "geometry": {
+             "x": -76.14062151586876,
+             "y": 43.08086078988454
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "818 Darlington Rd",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-13-07.0",
+             "violation_name": "SPCC - Section 27-72 (f) - Overgrowth",
+             "violation_date": 1500595200000,
+             "comply_by_date": 1501200000000,
+             "violation_status": "Closed",
+             "case_number": "2017-20929",
+             "case_type": "Overgrowth: Private, Occ",
+             "case_open_date": 1500508800000,
+             "property_owner_name": "Gregory Evans",
+             "inspector_id": 497,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "818 Darlington Rd ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1388894093084,
+             "lat": 43.080656521835,
+             "TNT_NAME": "Northside",
+             "ObjectId": 3
+          },
+          "geometry": {
+             "x": -76.13888940930842,
+             "y": 43.080656521835024
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "108 Orwood Pl To Darlington R",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-15-08.0",
+             "violation_name": "SGOC - Section 27-72 - Lawn, bushes and hedges overgrown spc",
+             "violation_date": 1496188800000,
+             "comply_by_date": 1496966400000,
+             "violation_status": "Closed",
+             "case_number": "2017-14743",
+             "case_type": "Overgrowth: Private, Occ",
+             "case_open_date": 1496188800000,
+             "property_owner_name": "Rosemarie Korthas Prunoske",
+             "inspector_id": 241,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "71 Christmas Tree Lane ",
+             "owner_city": "Phoenix",
+             "owner_state": "NY",
+             "owner_zip": "\"13135\"",
+             "long": -76.1370770816882,
+             "lat": 43.0800140071542,
+             "TNT_NAME": "Northside",
+             "ObjectId": 4
+          },
+          "geometry": {
+             "x": -76.13707708168825,
+             "y": 43.08001400715422
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "609 Darlington Rd",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-16-13.0",
+             "violation_name": "SPCC - Section 27-52 (c) (7) Sewage Draining System ",
+             "violation_date": 1529452800000,
+             "comply_by_date": 1529625600000,
+             "violation_status": "Closed",
+             "case_number": "2018-18952",
+             "case_type": "Property Maintenance-Ext",
+             "case_open_date": 1529452800000,
+             "property_owner_name": "Kristin Neri",
+             "inspector_id": 259,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "609 Darlington Rd ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208-2432\"",
+             "long": -76.1370735034677,
+             "lat": 43.0790736531117,
+             "TNT_NAME": "Northside",
+             "ObjectId": 5
+          },
+          "geometry": {
+             "x": -76.13707350346772,
+             "y": 43.079073653111706
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "159 Maplehurst Ave",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-17-07.0",
+             "violation_name": "SPCC - Section 27-72 (f) - Overgrowth",
+             "violation_date": 1536537600000,
+             "comply_by_date": 1537142400000,
+             "violation_status": "Closed",
+             "case_number": "2018-27565",
+             "case_type": "Overgrowth: Private, Occ",
+             "case_open_date": 1536192000000,
+             "property_owner_name": "Jonathan Nappa",
+             "inspector_id": 259,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "159 Maplehurst Ave ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1385053883686,
+             "lat": 43.0790458102216,
+             "TNT_NAME": "Northside",
+             "ObjectId": 6
+          },
+          "geometry": {
+             "x": -76.13850538836857,
+             "y": 43.07904581022157
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "151 Maplehurst Ave",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-17-09.0",
+             "violation_name": "SPCC - Section 27-72 (f) - Overgrowth",
+             "violation_date": 1530144000000,
+             "comply_by_date": 1530835200000,
+             "violation_status": "Closed",
+             "case_number": "2018-17860",
+             "case_type": "Overgrowth: Private, Occ",
+             "case_open_date": 1528675200000,
+             "property_owner_name": "Jack Himes",
+             "inspector_id": 259,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "235 Pumphouse Rd ",
+             "owner_city": "Mexico",
+             "owner_state": "NY",
+             "owner_zip": "\"13114\"",
+             "long": -76.1382891940801,
+             "lat": 43.0788977047296,
+             "TNT_NAME": "Northside",
+             "ObjectId": 7
+          },
+          "geometry": {
+             "x": -76.13828919408006,
+             "y": 43.07889770472956
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "808-10 Wadsworth St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-18-16.0",
+             "violation_name": "SPCC - Section 27-31 (c) Structural members",
+             "violation_date": 1491177600000,
+             "comply_by_date": 1492992000000,
+             "violation_status": "Open",
+             "case_number": "2017-07417",
+             "case_type": "Property Maintenance-Ext",
+             "case_open_date": 1491177600000,
+             "property_owner_name": "Patrick Hurley",
+             "inspector_id": 259,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "808 Wadsworth St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1395778825843,
+             "lat": 43.0780747316561,
+             "TNT_NAME": "Northside",
+             "ObjectId": 8
+          },
+          "geometry": {
+             "x": -76.1395778825843,
+             "y": 43.078074731656066
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "808-10 Wadsworth St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-18-16.0",
+             "violation_name": "SPCC - Section 27-33 (c) Chimneys, flues and vents",
+             "violation_date": 1491177600000,
+             "comply_by_date": 1491782400000,
+             "violation_status": "Open",
+             "case_number": "2017-07417",
+             "case_type": "Property Maintenance-Ext",
+             "case_open_date": 1491177600000,
+             "property_owner_name": "Patrick Hurley",
+             "inspector_id": 259,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "808 Wadsworth St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1396001102285,
+             "lat": 43.0780879075237,
+             "TNT_NAME": "Northside",
+             "ObjectId": 9
+          },
+          "geometry": {
+             "x": -76.1396001102285,
+             "y": 43.07808790752368
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "808-10 Wadsworth St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-18-16.0",
+             "violation_name": "2015 IMPC - 704.2.1.1 - Group R-1",
+             "violation_date": 1535673600000,
+             "comply_by_date": 1536796800000,
+             "violation_status": "Open",
+             "case_number": "2018-26711",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1535500800000,
+             "property_owner_name": "Patrick Hurley",
+             "inspector_id": 259,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "808 Wadsworth St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1395778825843,
+             "lat": 43.0780747316561,
+             "TNT_NAME": "Northside",
+             "ObjectId": 10
+          },
+          "geometry": {
+             "x": -76.1395778825843,
+             "y": 43.078074731656066
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "808-10 Wadsworth St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-18-16.0",
+             "violation_name": "2015 IFC Section 915.1 General",
+             "violation_date": 1535673600000,
+             "comply_by_date": 1536796800000,
+             "violation_status": "Open",
+             "case_number": "2018-26711",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1535500800000,
+             "property_owner_name": "Patrick Hurley",
+             "inspector_id": 259,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "808 Wadsworth St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1395778825843,
+             "lat": 43.0780747316561,
+             "TNT_NAME": "Northside",
+             "ObjectId": 11
+          },
+          "geometry": {
+             "x": -76.1395778825843,
+             "y": 43.078074731656066
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "808-10 Wadsworth St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-18-16.0",
+             "violation_name": "2015 IMPC - 304.10 - Stairways, Decks, Porches and Balconies",
+             "violation_date": 1535673600000,
+             "comply_by_date": 1537401600000,
+             "violation_status": "Open",
+             "case_number": "2018-26711",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1535500800000,
+             "property_owner_name": "Patrick Hurley",
+             "inspector_id": 259,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "808 Wadsworth St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1395778825843,
+             "lat": 43.0780747316561,
+             "TNT_NAME": "Northside",
+             "ObjectId": 12
+          },
+          "geometry": {
+             "x": -76.1395778825843,
+             "y": 43.078074731656066
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "808-10 Wadsworth St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-18-16.0",
+             "violation_name": "2015 IMPC - 304.12 - Handrails and Guards",
+             "violation_date": 1535673600000,
+             "comply_by_date": 1537401600000,
+             "violation_status": "Open",
+             "case_number": "2018-26711",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1535500800000,
+             "property_owner_name": "Patrick Hurley",
+             "inspector_id": 259,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "808 Wadsworth St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1396001102285,
+             "lat": 43.0780879075237,
+             "TNT_NAME": "Northside",
+             "ObjectId": 13
+          },
+          "geometry": {
+             "x": -76.1396001102285,
+             "y": 43.07808790752368
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "815 Wadsworth St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-19-10.0",
+             "violation_name": "SGOC - Section 27-72 - Lawn, bushes and hedges overgrown spc",
+             "violation_date": 1503446400000,
+             "comply_by_date": 1504137600000,
+             "violation_status": "Closed",
+             "case_number": "2017-23063",
+             "case_type": "Property Maintenance-Ext",
+             "case_open_date": 1502150400000,
+             "property_owner_name": "Rose Talarico",
+             "inspector_id": 241,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "815 Wadsworth St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1398597472395,
+             "lat": 43.0778935401445,
+             "TNT_NAME": "Northside",
+             "ObjectId": 14
+          },
+          "geometry": {
+             "x": -76.13985974723947,
+             "y": 43.07789354014451
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "147 Huntley St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-19-13.0",
+             "violation_name": "SGOC - Section 27-72 - Trash and debris junk and litter spc",
+             "violation_date": 1488412800000,
+             "comply_by_date": 1489104000000,
+             "violation_status": "Closed",
+             "case_number": "2017-04456",
+             "case_type": "Trash/Debris-Private, Occ",
+             "case_open_date": 1488153600000,
+             "property_owner_name": "Christopher Doherty",
+             "inspector_id": 241,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "Y",
+             "owner_address": "147 Huntley St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1402278589447,
+             "lat": 43.0776102491848,
+             "TNT_NAME": "Northside",
+             "ObjectId": 15
+          },
+          "geometry": {
+             "x": -76.14022785894466,
+             "y": 43.0776102491848
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "147 Huntley St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-19-13.0",
+             "violation_name": "SPCC - Section 27-32 (b) Stairs, porches and railings",
+             "violation_date": 1492646400000,
+             "comply_by_date": -2208988800000,
+             "violation_status": "Open",
+             "case_number": "V2017-0296",
+             "case_type": "Vacant House",
+             "case_open_date": 1492646400000,
+             "property_owner_name": "Christopher Doherty",
+             "inspector_id": 253,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "Y",
+             "owner_address": "147 Huntley St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1402278589447,
+             "lat": 43.0776102491848,
+             "TNT_NAME": "Northside",
+             "ObjectId": 16
+          },
+          "geometry": {
+             "x": -76.14022785894466,
+             "y": 43.0776102491848
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "401 Burdick Ave & Murray Ave",
+             "property_zip": "\"13208\"",
+             "property_id": "003.-16-20.0",
+             "violation_name": "SPCC - Section 27-72 (e) -Trash & Debris",
+             "violation_date": 1522886400000,
+             "comply_by_date": 1522886400000,
+             "violation_status": "Open",
+             "case_number": "V2017-0343",
+             "case_type": "Vacant House",
+             "case_open_date": 1497312000000,
+             "property_owner_name": "Bridget Chiasson",
+             "inspector_id": 253,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "Y",
+             "owner_address": "401 Burdick Ave & Murray ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1561832111217,
+             "lat": 43.0774381159943,
+             "TNT_NAME": "Northside",
+             "ObjectId": 17
+          },
+          "geometry": {
+             "x": -76.15618321112167,
+             "y": 43.07743811599425
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "147 Huntley St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-19-13.0",
+             "violation_name": "SPCC - Section 27-32 (d) Protective coating for wood surfaces",
+             "violation_date": 1492646400000,
+             "comply_by_date": -2208988800000,
+             "violation_status": "Open",
+             "case_number": "V2017-0296",
+             "case_type": "Vacant House",
+             "case_open_date": 1492646400000,
+             "property_owner_name": "Christopher Doherty",
+             "inspector_id": 253,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "Y",
+             "owner_address": "147 Huntley St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1402278589447,
+             "lat": 43.0776102491848,
+             "TNT_NAME": "Northside",
+             "ObjectId": 18
+          },
+          "geometry": {
+             "x": -76.14022785894466,
+             "y": 43.0776102491848
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "115 Huntley St To Hillside St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-19-21.0",
+             "violation_name": "SGOC - Section 27-72 - Trash and debris junk and litter spc",
+             "violation_date": 1506038400000,
+             "comply_by_date": 1506902400000,
+             "violation_status": "Closed",
+             "case_number": "2017-27973",
+             "case_type": "Trash/Debris-Private, Occ",
+             "case_open_date": 1506038400000,
+             "property_owner_name": "Michael Bianchi",
+             "inspector_id": 241,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "261 Norwood Ave ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13206\"",
+             "long": -76.141464674576,
+             "lat": 43.0775801185316,
+             "TNT_NAME": "Northside",
+             "ObjectId": 19
+          },
+          "geometry": {
+             "x": -76.14146467457596,
+             "y": 43.07758011853157
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "115 Huntley St To Hillside St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-19-21.0",
+             "violation_name": "SPCC - Section 27-72 (e) -Trash & Debris",
+             "violation_date": 1519689600000,
+             "comply_by_date": 1520294400000,
+             "violation_status": "Closed",
+             "case_number": "2018-05367",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1519689600000,
+             "property_owner_name": "Michael Bianchi",
+             "inspector_id": 497,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "261 Norwood Ave ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13206\"",
+             "long": -76.141464674576,
+             "lat": 43.0775801185316,
+             "TNT_NAME": "Northside",
+             "ObjectId": 20
+          },
+          "geometry": {
+             "x": -76.14146467457596,
+             "y": 43.07758011853157
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "115 Huntley St To Hillside St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-19-21.0",
+             "violation_name": "2015 IPMC Section 704.1 Operable",
+             "violation_date": 1519689600000,
+             "comply_by_date": 1520294400000,
+             "violation_status": "Closed",
+             "case_number": "2018-05367",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1519689600000,
+             "property_owner_name": "Michael Bianchi",
+             "inspector_id": 497,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "261 Norwood Ave ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13206\"",
+             "long": -76.141464674576,
+             "lat": 43.0775801185316,
+             "TNT_NAME": "Northside",
+             "ObjectId": 21
+          },
+          "geometry": {
+             "x": -76.14146467457596,
+             "y": 43.07758011853157
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "115 Huntley St To Hillside St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-19-21.0",
+             "violation_name": "2015 IFC Section 915.1 General",
+             "violation_date": 1519689600000,
+             "comply_by_date": 1520294400000,
+             "violation_status": "Closed",
+             "case_number": "2018-05367",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1519689600000,
+             "property_owner_name": "Michael Bianchi",
+             "inspector_id": 497,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "261 Norwood Ave ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13206\"",
+             "long": -76.141464674576,
+             "lat": 43.0775801185316,
+             "TNT_NAME": "Northside",
+             "ObjectId": 22
+          },
+          "geometry": {
+             "x": -76.14146467457596,
+             "y": 43.07758011853157
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "115 Huntley St To Hillside St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-19-21.0",
+             "violation_name": "2015 IPMC Section 309.1 Infestation",
+             "violation_date": 1526947200000,
+             "comply_by_date": 1528243200000,
+             "violation_status": "Closed",
+             "case_number": "2018-15025",
+             "case_type": "Bed Bugs",
+             "case_open_date": 1526860800000,
+             "property_owner_name": "Michael Bianchi",
+             "inspector_id": 241,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "261 Norwood Ave ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13206\"",
+             "long": -76.141464674576,
+             "lat": 43.0775801185316,
+             "TNT_NAME": "Northside",
+             "ObjectId": 23
+          },
+          "geometry": {
+             "x": -76.14146467457596,
+             "y": 43.07758011853157
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "115 Huntley St To Hillside St",
+             "property_zip": "\"13208\"",
+             "property_id": "005.-19-21.0",
+             "violation_name": "SPCC - Section 27-72 (f) - Overgrowth",
+             "violation_date": 1533081600000,
+             "comply_by_date": 1533772800000,
+             "violation_status": "Closed",
+             "case_number": "2018-23438",
+             "case_type": "Overgrowth: Private, Occ",
+             "case_open_date": 1532995200000,
+             "property_owner_name": "Michael Bianchi",
+             "inspector_id": 259,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "261 Norwood Ave ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13206\"",
+             "long": -76.141464674576,
+             "lat": 43.0775801185316,
+             "TNT_NAME": "Northside",
+             "ObjectId": 24
+          },
+          "geometry": {
+             "x": -76.14146467457596,
+             "y": 43.07758011853157
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "708 Turtle St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-01-03.0",
+             "violation_name": "SPCC - Section 27-32 (b) Stairs, porches and railings",
+             "violation_date": 1523577600000,
+             "comply_by_date": 1523577600000,
+             "violation_status": "Open",
+             "case_number": "2015-02414",
+             "case_type": "Vacant House",
+             "case_open_date": 1423094400000,
+             "property_owner_name": "Richard Kalkbrenner",
+             "inspector_id": 247,
+             "property_neighborhood": "Washington Square",
+             "vacant_property": "Y",
+             "owner_address": "410 Kenwick Drive ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1564905860799,
+             "lat": 43.0732260218828,
+             "TNT_NAME": "Northside",
+             "ObjectId": 25
+          },
+          "geometry": {
+             "x": -76.15649058607988,
+             "y": 43.073226021882824
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "708 Turtle St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-01-03.0",
+             "violation_name": "SPCC - Section 27-72 (e) -Trash & Debris",
+             "violation_date": 1523577600000,
+             "comply_by_date": 1523577600000,
+             "violation_status": "Open",
+             "case_number": "2015-02414",
+             "case_type": "Vacant House",
+             "case_open_date": 1423094400000,
+             "property_owner_name": "Richard Kalkbrenner",
+             "inspector_id": 247,
+             "property_neighborhood": "Washington Square",
+             "vacant_property": "Y",
+             "owner_address": "410 Kenwick Drive ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1564905860799,
+             "lat": 43.0732260218828,
+             "TNT_NAME": "Northside",
+             "ObjectId": 26
+          },
+          "geometry": {
+             "x": -76.15649058607988,
+             "y": 43.073226021882824
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "701 Court St & First North St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-01-17.0",
+             "violation_name": "SPCC - Section 27-72 (f) - Overgrowth",
+             "violation_date": 1534896000000,
+             "comply_by_date": 1535500800000,
+             "violation_status": "Closed",
+             "case_number": "2018-25475",
+             "case_type": "Overgrowth: Private, Occ",
+             "case_open_date": 1534464000000,
+             "property_owner_name": "John Spradling",
+             "inspector_id": 413,
+             "property_neighborhood": "Washington Square",
+             "vacant_property": "N",
+             "owner_address": "1080 County Route 30 ",
+             "owner_city": "Altman",
+             "owner_state": "NY",
+             "owner_zip": "\"13302\"",
+             "long": -76.1555707353068,
+             "lat": 43.0723532421954,
+             "TNT_NAME": "Northside",
+             "ObjectId": 27
+          },
+          "geometry": {
+             "x": -76.1555707353068,
+             "y": 43.072353242195426
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "1204 First North St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-01-18.0",
+             "violation_name": "SPCC - Section 27-72 (e) -Trash & Debris",
+             "violation_date": 1493856000000,
+             "comply_by_date": 1494460800000,
+             "violation_status": "Closed",
+             "case_number": "2017-11644",
+             "case_type": "Trash/Debris-Private, Occ",
+             "case_open_date": 1493856000000,
+             "property_owner_name": "Ronald Dallas",
+             "inspector_id": 497,
+             "property_neighborhood": "Washington Square",
+             "vacant_property": "N",
+             "owner_address": "200 Saltmakers Rd ",
+             "owner_city": "Liverpool",
+             "owner_state": "NY",
+             "owner_zip": "\"13088\"",
+             "long": -76.1559280271537,
+             "lat": 43.0723641048084,
+             "TNT_NAME": "Northside",
+             "ObjectId": 28
+          },
+          "geometry": {
+             "x": -76.1559280271537,
+             "y": 43.07236410480839
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "802 Turtle St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-02-02.0",
+             "violation_name": "SPCC - Section 27-72 (i) - Hazardous Tree",
+             "violation_date": 1484265600000,
+             "comply_by_date": 1486080000000,
+             "violation_status": "Closed",
+             "case_number": "2017-01259",
+             "case_type": "Property Maintenance-Ext",
+             "case_open_date": 1484265600000,
+             "property_owner_name": "Oak Elm Properties LLC",
+             "inspector_id": 227,
+             "property_neighborhood": "Washington Square",
+             "vacant_property": "N",
+             "owner_address": "171 E 84th St ",
+             "owner_city": "New York",
+             "owner_state": "NY",
+             "owner_zip": "\"10028\"",
+             "long": -76.1557306780457,
+             "lat": 43.0741139616195,
+             "TNT_NAME": "Northside",
+             "ObjectId": 29
+          },
+          "geometry": {
+             "x": -76.15573067804569,
+             "y": 43.074113961619446
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "809 Court St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-02-15.0",
+             "violation_name": "2015 IMPC - 305.3 - Interior Surfaces",
+             "violation_date": 1530144000000,
+             "comply_by_date": 1530576000000,
+             "violation_status": "Closed",
+             "case_number": "2018-19842",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1530057600000,
+             "property_owner_name": "Hasan Properties LLC",
+             "inspector_id": 252,
+             "property_neighborhood": "Washington Square",
+             "vacant_property": "N",
+             "owner_address": "4170 Old Homestead Rd ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13215\"",
+             "long": -76.1542181392556,
+             "lat": 43.074139262014,
+             "TNT_NAME": "Northside",
+             "ObjectId": 30
+          },
+          "geometry": {
+             "x": -76.15421813925559,
+             "y": 43.07413926201397
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "809 Court St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-02-15.0",
+             "violation_name": "2015 IMPC - 506.2 - Maintenance",
+             "violation_date": 1530144000000,
+             "comply_by_date": 1530576000000,
+             "violation_status": "Closed",
+             "case_number": "2018-19842",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1530057600000,
+             "property_owner_name": "Hasan Properties LLC",
+             "inspector_id": 252,
+             "property_neighborhood": "Washington Square",
+             "vacant_property": "N",
+             "owner_address": "4170 Old Homestead Rd ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13215\"",
+             "long": -76.1542181392556,
+             "lat": 43.074139262014,
+             "TNT_NAME": "Northside",
+             "ObjectId": 31
+          },
+          "geometry": {
+             "x": -76.15421813925559,
+             "y": 43.07413926201397
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "809 Court St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-02-15.0",
+             "violation_name": "2015 IMPC - Section 108.1.3 - Structure Unfit for Human Occupancy",
+             "violation_date": 1530144000000,
+             "comply_by_date": 1530576000000,
+             "violation_status": "Closed",
+             "case_number": "2018-19842",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1530057600000,
+             "property_owner_name": "Hasan Properties LLC",
+             "inspector_id": 252,
+             "property_neighborhood": "Washington Square",
+             "vacant_property": "N",
+             "owner_address": "4170 Old Homestead Rd ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13215\"",
+             "long": -76.1542181392556,
+             "lat": 43.074139262014,
+             "TNT_NAME": "Northside",
+             "ObjectId": 32
+          },
+          "geometry": {
+             "x": -76.15421813925559,
+             "y": 43.07413926201397
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "300 Second North St & Court S",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-02-18.0",
+             "violation_name": "2015 IPMC Section 309.1 Infestation",
+             "violation_date": 1493596800000,
+             "comply_by_date": 1494892800000,
+             "violation_status": "Closed",
+             "case_number": "2017-10607",
+             "case_type": "Bed Bugs",
+             "case_open_date": 1493251200000,
+             "property_owner_name": "Scott Sharp",
+             "inspector_id": 259,
+             "property_neighborhood": "Washington Square",
+             "vacant_property": "N",
+             "owner_address": "PO BOX 222",
+             "owner_city": "Liverpool",
+             "owner_state": "NY",
+             "owner_zip": "\"13088\"",
+             "long": -76.154742553074,
+             "lat": 43.0734802902795,
+             "TNT_NAME": "Northside",
+             "ObjectId": 33
+          },
+          "geometry": {
+             "x": -76.15474255307397,
+             "y": 43.073480290279456
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "300 Second North St & Court S",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-02-18.0",
+             "violation_name": "2015 IPMC Section 309.1 Infestation",
+             "violation_date": 1527724800000,
+             "comply_by_date": 1529539200000,
+             "violation_status": "Open",
+             "case_number": "2018-15893",
+             "case_type": "Infestation",
+             "case_open_date": 1527552000000,
+             "property_owner_name": "Scott Sharp",
+             "inspector_id": 241,
+             "property_neighborhood": "Washington Square",
+             "vacant_property": "N",
+             "owner_address": "PO BOX 222",
+             "owner_city": "Liverpool",
+             "owner_state": "NY",
+             "owner_zip": "\"13088\"",
+             "long": -76.1545266252329,
+             "lat": 43.0736962205545,
+             "TNT_NAME": "Northside",
+             "ObjectId": 34
+          },
+          "geometry": {
+             "x": -76.15452662523295,
+             "y": 43.073696220554474
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "300 Second North St & Court S",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-02-18.0",
+             "violation_name": "SZC - Section Z-B-1 - Illegal Land Use",
+             "violation_date": 1527724800000,
+             "comply_by_date": 1529539200000,
+             "violation_status": "Open",
+             "case_number": "2018-15893",
+             "case_type": "Infestation",
+             "case_open_date": 1527552000000,
+             "property_owner_name": "Scott Sharp",
+             "inspector_id": 241,
+             "property_neighborhood": "Washington Square",
+             "vacant_property": "N",
+             "owner_address": "PO BOX 222",
+             "owner_city": "Liverpool",
+             "owner_state": "NY",
+             "owner_zip": "\"13088\"",
+             "long": -76.154742553074,
+             "lat": 43.0734802902795,
+             "TNT_NAME": "Northside",
+             "ObjectId": 35
+          },
+          "geometry": {
+             "x": -76.15474255307397,
+             "y": 43.073480290279456
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "304 Second North St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-02-19.0",
+             "violation_name": "2015 IMPC - 305.4 - Stairs and Walking Surfaces",
+             "violation_date": 1524182400000,
+             "comply_by_date": 1525392000000,
+             "violation_status": "Closed",
+             "case_number": "2018-10399",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1523923200000,
+             "property_owner_name": "Santino Crisafulli",
+             "inspector_id": 252,
+             "property_neighborhood": "Washington Square",
+             "vacant_property": "N",
+             "owner_address": "320 Sunset Ave ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1549646256815,
+             "lat": 43.0735489998304,
+             "TNT_NAME": "Northside",
+             "ObjectId": 36
+          },
+          "geometry": {
+             "x": -76.15496462568153,
+             "y": 43.07354899983036
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "304 Second North St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-02-19.0",
+             "violation_name": "2015 IMPC - 309.1 - Infestation",
+             "violation_date": 1524182400000,
+             "comply_by_date": 1525392000000,
+             "violation_status": "Closed",
+             "case_number": "2018-10399",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1523923200000,
+             "property_owner_name": "Santino Crisafulli",
+             "inspector_id": 252,
+             "property_neighborhood": "Washington Square",
+             "vacant_property": "N",
+             "owner_address": "320 Sunset Ave ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1549646256815,
+             "lat": 43.0735489998304,
+             "TNT_NAME": "Northside",
+             "ObjectId": 37
+          },
+          "geometry": {
+             "x": -76.15496462568153,
+             "y": 43.07354899983036
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "304 Second North St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-02-19.0",
+             "violation_name": "2015 IMPC - 305.3 - Interior Surfaces",
+             "violation_date": 1524182400000,
+             "comply_by_date": 1525392000000,
+             "violation_status": "Closed",
+             "case_number": "2018-10399",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1523923200000,
+             "property_owner_name": "Santino Crisafulli",
+             "inspector_id": 252,
+             "property_neighborhood": "Washington Square",
+             "vacant_property": "N",
+             "owner_address": "320 Sunset Ave ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1549646256815,
+             "lat": 43.0735489998304,
+             "TNT_NAME": "Northside",
+             "ObjectId": 38
+          },
+          "geometry": {
+             "x": -76.15496462568153,
+             "y": 43.07354899983036
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "919 Court St & Brace St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-03-08.0",
+             "violation_name": "2015 IPMC Section 305.3 Surfaces And Protective Coatings",
+             "violation_date": 1501632000000,
+             "comply_by_date": 1502928000000,
+             "violation_status": "Closed",
+             "case_number": "2017-22235",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1501545600000,
+             "property_owner_name": "Cheryl Simmons",
+             "inspector_id": 497,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "919 Court St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1533558941323,
+             "lat": 43.0752530714635,
+             "TNT_NAME": "Northside",
+             "ObjectId": 39
+          },
+          "geometry": {
+             "x": -76.15335589413228,
+             "y": 43.075253071463464
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "919 Court St & Brace St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-03-08.0",
+             "violation_name": "SPCC - Section 27-57 (a) (19) - Switch/Outlet is Damaged/ Unserviceable",
+             "violation_date": 1501632000000,
+             "comply_by_date": 1502323200000,
+             "violation_status": "Closed",
+             "case_number": "2017-22235",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1501545600000,
+             "property_owner_name": "Cheryl Simmons",
+             "inspector_id": 497,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "919 Court St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1533558941323,
+             "lat": 43.0752530714635,
+             "TNT_NAME": "Northside",
+             "ObjectId": 40
+          },
+          "geometry": {
+             "x": -76.15335589413228,
+             "y": 43.075253071463464
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "919 Court St & Brace St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-03-08.0",
+             "violation_name": "2015 IPMC Section 304.13 Weathertight Window, Door Frames",
+             "violation_date": 1501632000000,
+             "comply_by_date": 1502928000000,
+             "violation_status": "Closed",
+             "case_number": "2017-22235",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1501545600000,
+             "property_owner_name": "Cheryl Simmons",
+             "inspector_id": 497,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "919 Court St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1533558941323,
+             "lat": 43.0752530714635,
+             "TNT_NAME": "Northside",
+             "ObjectId": 41
+          },
+          "geometry": {
+             "x": -76.15335589413228,
+             "y": 43.075253071463464
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "919 Court St & Brace St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-03-08.0",
+             "violation_name": "2015 IPMC Section 704.1 Operable",
+             "violation_date": 1501632000000,
+             "comply_by_date": 1502236800000,
+             "violation_status": "Closed",
+             "case_number": "2017-22235",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1501545600000,
+             "property_owner_name": "Cheryl Simmons",
+             "inspector_id": 497,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "919 Court St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1533558941323,
+             "lat": 43.0752530714635,
+             "TNT_NAME": "Northside",
+             "ObjectId": 42
+          },
+          "geometry": {
+             "x": -76.15335589413228,
+             "y": 43.075253071463464
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "919 Court St & Brace St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-03-08.0",
+             "violation_name": "2015 IFC Section 915.1 General",
+             "violation_date": 1501632000000,
+             "comply_by_date": 1502236800000,
+             "violation_status": "Closed",
+             "case_number": "2017-22235",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1501545600000,
+             "property_owner_name": "Cheryl Simmons",
+             "inspector_id": 497,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "919 Court St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1533558941323,
+             "lat": 43.0752530714635,
+             "TNT_NAME": "Northside",
+             "ObjectId": 43
+          },
+          "geometry": {
+             "x": -76.15335589413228,
+             "y": 43.075253071463464
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "919 Court St & Brace St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-03-08.0",
+             "violation_name": "2015 IPMC Section 304.7 Roofing",
+             "violation_date": 1501632000000,
+             "comply_by_date": 1502928000000,
+             "violation_status": "Closed",
+             "case_number": "2017-22235",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1501545600000,
+             "property_owner_name": "Cheryl Simmons",
+             "inspector_id": 497,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "919 Court St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1533558941323,
+             "lat": 43.0752530714635,
+             "TNT_NAME": "Northside",
+             "ObjectId": 44
+          },
+          "geometry": {
+             "x": -76.15335589413228,
+             "y": 43.075253071463464
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "919 Court St & Brace St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-03-08.0",
+             "violation_name": "2015 IPMC Section 304.10 Stairs, Decks, Porches",
+             "violation_date": 1501632000000,
+             "comply_by_date": 1502928000000,
+             "violation_status": "Closed",
+             "case_number": "2017-22235",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1501545600000,
+             "property_owner_name": "Cheryl Simmons",
+             "inspector_id": 497,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "919 Court St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1533558941323,
+             "lat": 43.0752530714635,
+             "TNT_NAME": "Northside",
+             "ObjectId": 45
+          },
+          "geometry": {
+             "x": -76.15335589413228,
+             "y": 43.075253071463464
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "919 Court St & Brace St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-03-08.0",
+             "violation_name": "2015 IPMC Section 304.8 Trim",
+             "violation_date": 1501632000000,
+             "comply_by_date": 1502928000000,
+             "violation_status": "Closed",
+             "case_number": "2017-22235",
+             "case_type": "Property Maintenance-Int",
+             "case_open_date": 1501545600000,
+             "property_owner_name": "Cheryl Simmons",
+             "inspector_id": 497,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "919 Court St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1533558941323,
+             "lat": 43.0752530714635,
+             "TNT_NAME": "Northside",
+             "ObjectId": 46
+          },
+          "geometry": {
+             "x": -76.15335589413228,
+             "y": 43.075253071463464
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "919 Court St & Brace St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-03-08.0",
+             "violation_name": "2015 IMPC - 304.10 - Stairways, Decks, Porches and Balconies",
+             "violation_date": 1529625600000,
+             "comply_by_date": 1531440000000,
+             "violation_status": "Open",
+             "case_number": "2018-15215",
+             "case_type": "Property Maintenance-Ext",
+             "case_open_date": 1527033600000,
+             "property_owner_name": "Cheryl Simmons",
+             "inspector_id": 252,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "919 Court St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1533558941323,
+             "lat": 43.0752530714635,
+             "TNT_NAME": "Northside",
+             "ObjectId": 47
+          },
+          "geometry": {
+             "x": -76.15335589413228,
+             "y": 43.075253071463464
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "919 Court St & Brace St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-03-08.0",
+             "violation_name": "2015 IMPC - 304.7 - Roofs and Drainage",
+             "violation_date": 1529625600000,
+             "comply_by_date": 1531440000000,
+             "violation_status": "Open",
+             "case_number": "2018-15215",
+             "case_type": "Property Maintenance-Ext",
+             "case_open_date": 1527033600000,
+             "property_owner_name": "Cheryl Simmons",
+             "inspector_id": 252,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "919 Court St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1533558941323,
+             "lat": 43.0752530714635,
+             "TNT_NAME": "Northside",
+             "ObjectId": 48
+          },
+          "geometry": {
+             "x": -76.15335589413228,
+             "y": 43.075253071463464
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "121 Willumae Dr",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-05-15.0",
+             "violation_name": "SPCC - Section 27-72 (f) - Overgrowth",
+             "violation_date": 1498521600000,
+             "comply_by_date": 1501632000000,
+             "violation_status": "Closed",
+             "case_number": "2016-33374",
+             "case_type": "Trash/Debris-Private, Occ",
+             "case_open_date": 1480636800000,
+             "property_owner_name": "Jay Rocco",
+             "inspector_id": 502,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "121 Willumae Dr ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1514464469811,
+             "lat": 43.0765629277071,
+             "TNT_NAME": "Northside",
+             "ObjectId": 49
+          },
+          "geometry": {
+             "x": -76.15144644698113,
+             "y": 43.076562927707144
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "138 Burdick Ave",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-05-31.0",
+             "violation_name": "SGOC - Section 27-72 - Lawn, bushes and hedges overgrown spc",
+             "violation_date": 1532304000000,
+             "comply_by_date": 1533081600000,
+             "violation_status": "Closed",
+             "case_number": "2018-22217",
+             "case_type": "Overgrowth: Private, Occ",
+             "case_open_date": 1531958400000,
+             "property_owner_name": "Sheila Cox",
+             "inspector_id": 241,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "138 Burdick Ave ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1528663384165,
+             "lat": 43.0764980842896,
+             "TNT_NAME": "Northside",
+             "ObjectId": 50
+          },
+          "geometry": {
+             "x": -76.15286633841647,
+             "y": 43.07649808428961
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "219 Seventh North St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-06-06.0",
+             "violation_name": "SPCC - Section 27-72 (f) - Overgrowth",
+             "violation_date": 1498694400000,
+             "comply_by_date": 1499299200000,
+             "violation_status": "Closed",
+             "case_number": "2017-18577",
+             "case_type": "Overgrowth: Private, Occ",
+             "case_open_date": 1498608000000,
+             "property_owner_name": "Cesar Bravo Perez",
+             "inspector_id": 497,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "219 Seventh North St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.1521110791161,
+             "lat": 43.0786893468203,
+             "TNT_NAME": "Northside",
+             "ObjectId": 51
+          },
+          "geometry": {
+             "x": -76.15211107911612,
+             "y": 43.07868934682027
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "123 Cadillac St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-06-14.0",
+             "violation_name": "19 NYCRR Part 1203",
+             "violation_date": 1503360000000,
+             "comply_by_date": 1505174400000,
+             "violation_status": "Closed",
+             "case_number": "2017-24171",
+             "case_type": "Building W/O Permit",
+             "case_open_date": 1502841600000,
+             "property_owner_name": "Anthony Irick",
+             "inspector_id": 248,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "123 Cadillac St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.152035704017,
+             "lat": 43.0777388661365,
+             "TNT_NAME": "Northside",
+             "ObjectId": 52
+          },
+          "geometry": {
+             "x": -76.15203570401701,
+             "y": 43.07773886613648
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "123 Cadillac St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-06-14.0",
+             "violation_name": "2015 IMPC - 304.7 - Roofs and Drainage",
+             "violation_date": 1536883200000,
+             "comply_by_date": 1538352000000,
+             "violation_status": "Open",
+             "case_number": "2018-28518",
+             "case_type": "Property Maintenance-Ext",
+             "case_open_date": 1536883200000,
+             "property_owner_name": "Anthony Irick",
+             "inspector_id": 256,
+             "property_neighborhood": "Court-Woodlawn",
+             "vacant_property": "N",
+             "owner_address": "123 Cadillac St ",
+             "owner_city": "Syracuse",
+             "owner_state": "NY",
+             "owner_zip": "\"13208\"",
+             "long": -76.152035704017,
+             "lat": 43.0777388661365,
+             "TNT_NAME": "Northside",
+             "ObjectId": 53
+          },
+          "geometry": {
+             "x": -76.15203570401701,
+             "y": 43.07773886613648
+          }
+       },
+       {
+          "attributes": {
+             "property_address": "151 Seventh North St",
+             "property_zip": "\"13208\"",
+             "property_id": "006.-07-07.0",
+             "violation_name": "SPCC - Section 27-72 (f) - Overgrowth",
+             "violation_date": 1528416000000,
+             "comply_by_date": 1529020800000,
+             "violation_status": "Closed",
+             "case_number": "2018-16649",
+             "case_type": "Overgrowth: Private, Occ",
+             "case_open_date": 1527811200000,
+          }
+    
