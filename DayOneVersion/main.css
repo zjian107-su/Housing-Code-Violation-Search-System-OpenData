@@ -1,0 +1,36 @@
+#searchFunc{
+    display: flex;
+    justify-content: center;   
+    color: #000000
+}
+body, html {
+    height: 100%;
+}
+
+
+    /* The image used */
+.background{
+    background-image: url(syracuse.jpg);
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*filter: blur(2px);*/
+}
+.nav_tabs{
+    background-color:blue;
+    color:blue;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+.table{
+    width:50%;
+}
+.table_body{
+    color: blue;
+}
