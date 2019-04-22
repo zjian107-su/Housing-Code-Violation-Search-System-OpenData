@@ -53,6 +53,7 @@
         //Input Address API connectin + Limit 5 results
         var src = [];
         var addresses = [];
+        //The API link is big Parcel database from Sam E.(mainly for registered addresses)
         $.getJSON('https://services6.arcgis.com/bdPqSfflsdgFRVVM/arcgis/rest/services/Code_violations/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json',
             d => {
                 d.features.forEach(feature => {
