@@ -26,8 +26,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--BootStrape-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--font: Google Front Calibri-->
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <!--From origin file: jQuery-->
@@ -42,15 +42,24 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <!--new links end here-->
     <style>
-        img {max-width: 100%;display: inline-block;}
-        ul {list-style: none;}
+        img {
+            max-width: 100%;
+            display: inline-block;
+        }
+
+        ul {
+            list-style: none;
+        }
+
         /*Font set as Calibri, not default Helvetica*/
-        body {font-family: 'Calibri',    !important;}
+        body {
+            font-family: 'Calibri',  !important;
+        }
     </style>
 
 
     <script>
-        //Input Address API connectin + Limit 5 results
+        //Input Address API connectin + Limit 10 results
         var src = [];
         var addresses = [];
         //The API link is big Parcel database from Sam E.(mainly for registered addresses)
@@ -59,14 +68,17 @@
                 d.features.forEach(feature => {
                     addresses.push(feature.attributes.property_address);
                 });
+                //only save unique addresses into the list
                 src = $.unique(addresses).map(e => e);
+                //JavascriptUI autocomletion 
                 $("#searchInput").autocomplete({
                     source: function (request, response) {
                         var results = $.ui.autocomplete.filter(src, request.term);
+                        //change the number "10" to make result more/less than 10
                         response(results.slice(0, 10));
                     }
                 });
-            }); 
+            });
 
         // This function sends the AJAX call to retreive JSON data from the API
         // query variable is passed to the URL so that it retrieves all data with query as a name
@@ -149,7 +161,7 @@
                 if (houses[k].violation_name in weights) {
                     houses[k].weight = weights[houses[k].violation_name];
                 }
-                 console.log(houses[k]);
+                console.log(houses[k]);
             }
 
             // if houses is empty (meaning no data from the api was found),
@@ -188,7 +200,7 @@
                 // Display the header column for the table (same code from HTML tag below)
 
                 thead.innerHTML = '<th>Address Name</th><th>Property owner</th><th> Case Type</th><th>Violation date</th><th>Violation Status</th><th>Inspection Date</th><th>Weight</th>';
-               // console.log(houses);
+                // console.log(houses);
                 for (var k in houses) {
                     // puts address, case type, and violation statues into each table row cell
                     tr = tbody.insertRow(tbody.rows.length);
@@ -199,7 +211,7 @@
                     td.innerHTML = houses[k].property_owner_name;
                     td = tr.insertCell(tr.cells.length);
 
-                    td.innerHTML = houses[k].violation_name ;
+                    td.innerHTML = houses[k].violation_name;
                     td = tr.insertCell(tr.cells.length);
 
                     // if the date is empty, just display nothing
@@ -245,15 +257,15 @@
             weights["2015 IPMV Section 506.2 Sewer And Waste Lines"] = 6;
             weights["2015 IFC - 506.1 - Where Required"] = 6;
             weights["2010 IFC - Section 506.2 - Key box maintenance"] = 6;
-            weights["2010 IFC - Section 505.1 - Address numbers" ] = 6;
-            weights["2010 IMC - Section 602.1 - Facilities required|" ] = 6;
+            weights["2010 IFC - Section 505.1 - Address numbers"] = 6;
+            weights["2010 IMC - Section 602.1 - Facilities required|"] = 6;
             weights["2010 IMC - Section 602.2 - Residential occupancies|"] = 6;
             weights["2010 IMC - Section 602.3 - Heat supply"] = 6;
-            weights["2010 IMC - Section 505.1- General" ] = 6;
-            weights["2010 IMC - Section 506.1 - General" ] = 6;
+            weights["2010 IMC - Section 505.1- General"] = 6;
+            weights["2010 IMC - Section 506.1 - General"] = 6;
             weights["2010 IMC - Section 506.2 - Maintenance"] = 6;
             weights["2010 IMC - Section 108.1.1 - Unsafe Structure"] = 6;
-            weights["2010 IMC - Section 304.5 - Foundation walls" ] = 6;
+            weights["2010 IMC - Section 304.5 - Foundation walls"] = 6;
             weights["Section 506 - Sanitary Drainage System"] = 6;
             weights["2015 IMPC - 704.2.1 - Where Required"] = 6;
             weights["2015 IMPC - 704.2.1.1 - Group R-1"] = 6;
@@ -277,8 +289,8 @@
             weights["2015 IMPC - 604.3.1 - Abatement of Electrical Hazard"] = 4;
             weights["2015 IMPC - 604.3.1.1 - Electrical Equipment"] = 4;
             weights["2015 IPMC Section 604.3 Electrical System Hazards"] = 4;
-            weights["2015 IPMC Section 309.1 Infestation" ] = 4;
-            weights["2015 IPMC Section 309.2 Owner" ] = 4;
+            weights["2015 IPMC Section 309.1 Infestation"] = 4;
+            weights["2015 IPMC Section 309.2 Owner"] = 4;
             weights["2015 IPMC Section 309.3 Single occupant"] = 4;
             weights["2015 IPMC Section 309.4 Multiple Occupancy"] = 4;
             weights["2010 IMC - Section 403.2 - Bathrooms and toilet rooms"] = 4;
@@ -291,7 +303,7 @@
             weights["2015 IMPC - 304.10 - Stairways, Decks, Porches and B"] = 3;
             weights["2015 IMPC - 304.12 - Handrails and Guards"] = 3;
             weights["2015 IMPC - 304.13 - Window, Skylight and Door Frame"] = 3;
-            weights["2015 IMPC - 304.13.1 - Glazing" ] = 3;
+            weights["2015 IMPC - 304.13.1 - Glazing"] = 3;
             weights["2015 IMPC - 304.13.2 - Openable Windows"] = 3;
             weights["2015 IMPC - 304.15 - Doors"] = 3;
             weights["2015 IMPC - 304.12 - Handrails and Guards"] = 3;
@@ -300,7 +312,7 @@
             weights["2015 IPMC Section 304.10 Stairs, Decks, Porches"] = 3;
             weights["2015 IPMC Section 304.13 Weathertight Window, Door"] = 3;
             weights["2015 IPMC Section 304.15 Doors And Locks"] = 3;
-            weights["2010 IFC - Section 305.1 - Clearance from ignition sou" ] = 3;
+            weights["2010 IFC - Section 305.1 - Clearance from ignition sou"] = 3;
             weights["2010 IMC - Section 504.1 - General"] = 3;
             weights["2010 IMC - Section 304.11 - Chimneys and towers"] = 3;
             weights["2010 IMC - Section 304.7 - Roofs and drainage"] = 3;
@@ -318,10 +330,10 @@
             weights["2015 IMPC - 304.14 - Insect Screens"] = 2;
             weights["2015 IMPC - 304.15 - Doors"] = 2;
             weights["2015 IPMC Section 304.14 Screens"] = 2;
-            weights["2015 IPMC Section 304.8 Trim" ] = 2;
+            weights["2015 IPMC Section 304.8 Trim"] = 2;
             weights["2010 IMC - Section 304.6 - Exterior walls"] = 2;
             weights["2010 IMC - Section 304.8 - Decorative features"] = 2;
-            weights["2010 IMC - Section 304.5 - Foundation walls"] = 2;   
+            weights["2010 IMC - Section 304.5 - Foundation walls"] = 2;
             return weights;
         }
 
@@ -339,7 +351,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <!--Nav Box includes nav items-->
+                <!--Nav box includes nav items-->
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -364,13 +376,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="images/stephan-bechert-484081-unsplash.jpg" class="d-block w-100" alt="house1">
+                <img src="images/stephan-bechert-484081-unsplash.jpg" class="d-block w-100" alt="house1">
             </div>
             <div class="carousel-item">
-            <img src="https://dummyimage.com/2000x800/01579B/fff" class="d-block w-100" alt="house2">
+                <img src="https://dummyimage.com/2000x800/01579B/fff" class="d-block w-100" alt="house2">
             </div>
             <div class="carousel-item">
-            <img src="https://dummyimage.com/2000x800/01579B/fff" class="d-block w-100" alt="house3">
+                <img src="https://dummyimage.com/2000x800/01579B/fff" class="d-block w-100" alt="house3">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -383,7 +395,7 @@
         </a>
     </div>
 
-    <div class="container" >
+    <div class="container">
         <section class="text-center row pt-5 pb-5 pl-1 pr-1">
             <div class="container col-12 col-sm-12 col-md-12 col-lg-9 col-xl-6">
                 <h1 class="display-3" id="about">About OpenData</h1>
@@ -398,15 +410,14 @@
         <!--line breaker-->
         <hr>
 
-        <div id="searchFunc" class="active-purple-3 active-purple-4 mb-4"  style="height:40px; ">
+        <div id="searchFunc" class="active-purple-3 active-purple-4 mb-4" style="height:40px; ">
             <form id="searchForm" style="width:300px !important;">
-                <input id='searchInput' class="form-control" type="text" placeholder="Search local address" aria-label="Search">
+                <input id='searchInput' class="form-control" type="text" placeholder="Search local address"
+                    aria-label="Search">
             </form>
         </div>
-
-
     </div>
-        
+
     <hr>
 
     <div id="particles-js">
@@ -415,15 +426,15 @@
             <col align="right">
             <col align="right">
             <thead id="thead">
-    
+
             </thead>
             <tbody id="table_body"></tbody>
-    
+
         </table>
     </div>
 
-    <!--Search Bar Area--> 
-        
+    <!--Search Bar Area-->
+
     <!--contact info-->
     <form>
         <div class="container contact mt-4" id="contact">
@@ -452,17 +463,17 @@
         </div>
     </form>
     <!--page footer -->
-    <div class="navbar navbar-expand-lg navbar-dark text-center mt-4 pt-4 pb-4" style="background-color: #062858" >
+    <div class="navbar navbar-expand-lg navbar-dark text-center mt-4 pt-4 pb-4" style="background-color: #062858">
         <span class="navbar-text text-white m-auto">&copy 2019 OpenData Syracuse</span>
     </div>
 
-    
+
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script>
-    particlesJS.load('particles-js', 'particles.json', function() {
-        console.log('callback - particles.js config loaded');
-      });
+        particlesJS.load('particles-js', 'particles.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
     </script>
 
 </body>
