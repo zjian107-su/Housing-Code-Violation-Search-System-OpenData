@@ -1,23 +1,29 @@
 <!-- 
+    IF YOU USE VSCODE:
+        Install extension packge - Live Server by Ritwick Dey.
+        Right click the index.html and choose "Open with live server"
+        There will be a web tab popped up. 
+
+    IF YOU DO NOT USE VSCODE,
     TO RUN THIS INDEX.HTML FILE:
-    You need to run a local server.
-    To do so, make sure the current directory is a nodeJS directory 
-    (so run 'npm init' in the cmd prompt)
-    Then, you need the http-server module globally installed (run 'npm install -g http-server')
-    Finally, to run the server type 'http-server .'
-    Navigate to the given IP in Chrome
+        You need to run a local server.
+        To do so, make sure the current directory is a nodeJS directory 
+        (so run 'npm init' in the cmd prompt)
+        Then, you need the http-server module globally installed (run 'npm install -g http-server')
+        Finally, to run the server type 'http-server .'
+        Navigate to the given IP in Chrome
 -->
 
+
 <!--
-    Changed by Hit Wonders:
-        Searchbar autocomplete using API connection
-        Searchbar limites to 5 results
-        Page redesign
+    Changed by Hit Wonders - Sring 2019:
+        Searchbar autocomplete using API connection (Javascript and API)
+        Searchbar limites to 5 results (JavascriptUI autocomplete)
+        Page redesign(Bootstrap)
 -->
 
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -368,6 +374,7 @@
     </nav>
 
     <!--carousel secition-->
+    <!--Code mainly copied from the offical web of bootstrap carousel page-->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -477,10 +484,4 @@
     </script>
 
 </body>
-
-
-<!--From new doc-->
-
-
-
 </html>
