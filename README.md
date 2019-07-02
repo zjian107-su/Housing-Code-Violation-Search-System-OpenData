@@ -9,7 +9,7 @@
 *Due to API changes, the current web will NOT run properly.*
  
  
-You may check the presentation of the project [through Google Slide](https://docs.google.com/presentation/d/1_mdiGW0WsQ2BflyE7O_UgKL5pSBK9_BGoxjq55T77NQ/edit?usp=sharing). 
+You may check the presentation of the project via [ Google Slide](https://docs.google.com/presentation/d/1_mdiGW0WsQ2BflyE7O_UgKL5pSBK9_BGoxjq55T77NQ/edit?usp=sharing). 
 
 
 ### How to Use The Web App
