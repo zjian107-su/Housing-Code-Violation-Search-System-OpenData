@@ -1,7 +1,7 @@
 # OepnDataSyracuseWebAPP
 
 
-**Changed by Hit Wonders - Sring 2019:**
+**Changes Made by Me - Sring 2019:**
 1. Searchbar autocomplete using API connection (Javascript and API)
 2. Searchbar limites to 5 results (JavascriptUI autocomplete)
 3. Page redesign(Bootstrap)
