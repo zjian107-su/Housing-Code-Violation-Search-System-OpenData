@@ -1,5 +1,6 @@
 # OepnDataSyracuseWebAPP
 
+
 **Changed by Hit Wonders - Sring 2019:**
 1. Searchbar autocomplete using API connection (Javascript and API)
 2. Searchbar limites to 5 results (JavascriptUI autocomplete)
@@ -7,6 +8,9 @@
 
 *Due to API changes, the current web will NOT run properly.*
  
+ 
+You may check the presentation of the project [through Google Slide](https://docs.google.com/presentation/d/1_mdiGW0WsQ2BflyE7O_UgKL5pSBK9_BGoxjq55T77NQ/edit?usp=sharing). 
+
 
 ### How to Use The Web App
 If you use Visual Studio Code:
