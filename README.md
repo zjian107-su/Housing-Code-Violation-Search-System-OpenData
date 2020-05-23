@@ -25,8 +25,3 @@ If you use Visual Studio Code:
 ![Search-Bar-Drop-Down](https://user-images.githubusercontent.com/35544956/82733428-83644400-9cc8-11ea-9fe9-a11f212bb324.jpg)
 #### Search-Bar-Result
 ![Search-Bar-Result](https://user-images.githubusercontent.com/35544956/82733443-9545e700-9cc8-11ea-931f-607962649fc7.jpg)
-
-
- 
-
-</div>
