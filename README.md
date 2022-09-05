@@ -1,6 +1,6 @@
 # OepnDataSyracuseWebAPP
 
-Daniel Zezheng Jiang helped Syracuse city hall "Innovation Team" to improve the **Housing Code Violation Search System(Web App)** as his senior year capstone project. 
+Daniel Zezheng Jiang helped Syracuse city hall "Innovation Team" to improve the **Housing Code Violation Search System(Web App)** as his senior year capstone project. The including data are public information.
 
 1. Developed Searchbar autocompletion feature using API connection (Javascript and API)
 2. Developed Searchbar results limitation feature, as only 5 closest results will show  in the drop-down(jQuery UI - autocomplete)
